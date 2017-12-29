@@ -1,6 +1,6 @@
 # Branchscript
 
-This is the repository where Branscript lives.
+This is the repository where Branchscript lives.
 There's an editor as well that's still in an early stage. 
 
 I've yet to make classes that compile a Branchscript file into a timeline that you can step through step by step.
