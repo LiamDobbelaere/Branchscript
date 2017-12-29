@@ -1,0 +1,25 @@
+.string {
+    -fx-fill: green;
+}
+
+.keyword {
+    -fx-fill: blue;
+}
+
+.paren {
+    -fx-fill: red;
+}
+
+.conversation {
+    -fx-fill: purple;
+    -fx-font-weight: bold;
+}
+
+.link {
+    -fx-fill: #13616d;
+    -fx-font-weight: bold;
+    -rtfx-border-stroke-color: #13616d;
+    -rtfx-border-stroke-width: 1px;
+    -rtfx-border-stroke-type: inside;
+    -fx-padding: 8.0;
+}

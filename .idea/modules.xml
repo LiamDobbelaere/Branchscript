@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/branchscript.iml" filepath="$PROJECT_DIR$/.idea/modules/branchscript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/branchscript_main.iml" filepath="$PROJECT_DIR$/.idea/modules/branchscript_main.iml" group="branchscript" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/branchscript_test.iml" filepath="$PROJECT_DIR$/.idea/modules/branchscript_test.iml" group="branchscript" />
+    </modules>
+  </component>
+</project>
