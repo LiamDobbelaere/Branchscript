@@ -1,4 +1,4 @@
-package com.digaly.contact;
+package com.digaly.branchscript.example;
 
 import com.digaly.branchscript.grammar.BranchscriptParser;
 

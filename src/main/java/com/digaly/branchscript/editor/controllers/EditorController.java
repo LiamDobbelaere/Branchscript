@@ -1,4 +1,4 @@
-package com.digaly.branchscript.controllers;
+package com.digaly.branchscript.editor.controllers;
 
 import com.digaly.branchscript.Branchscript;
 import javafx.scene.control.Label;

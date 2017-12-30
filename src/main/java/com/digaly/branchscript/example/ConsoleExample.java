@@ -1,11 +1,7 @@
-package com.digaly.contact;
+package com.digaly.branchscript.example;
 
 import com.digaly.branchscript.Branchscript;
 import com.digaly.branchscript.grammar.BranchscriptParser;
-import javafx.application.Platform;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -15,23 +11,11 @@ import java.util.Scanner;
 /**
  * Created by tomdo on 16/12/2017.
  */
-public class Application extends javafx.application.Application implements BranchingStoryListener {
+public class ConsoleExample extends javafx.application.Application implements BranchingStoryListener {
     private BranchingStory branchingStory;
 
     @Override
     public void start(Stage stage) throws Exception {
-        /*FXMLLoader loader = new FXMLLoader(getClass().getClassLoader().getResource("views/BSEdit.fxml"));
-        BorderPane pane = loader.load();
-
-        Scene scene = new Scene(pane);
-        stage.setTitle("BSEdit");
-        //stage.getIcons().add(new Image("logo.png"));
-        stage.setResizable(true);
-        stage.setOnCloseRequest((e) -> Platform.exit());
-        stage.sizeToScene();
-        stage.setScene(scene);
-        stage.show();*/
-
         this.branchingStory = new BranchingStory(Branchscript.parse(new File("src/main/resources/example.branch")));
         this.branchingStory.addBranchingStoryListener(this);
 

@@ -1,7 +1,6 @@
-package com.digaly.contact;
+package com.digaly.branchscript.example;
 
 import com.digaly.branchscript.grammar.BranchscriptParser;
-import org.antlr.v4.runtime.tree.TerminalNode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
