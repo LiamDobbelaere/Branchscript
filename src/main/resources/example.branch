@@ -1,0 +1,28 @@
+[Pirate/pirate_intro]
+"Ahoy matey! You want to control the ship?"
+- "Yeah!" SET(control_ship)
+- "Not really.."
+-> walk_plank IF control_ship==false
+-> welcome_aboard
+
+[Pirate/walk_plank]
+"Time for you to walk the plank!"
+TRIGGER game_over OPTIONS("You walked the plank")
+
+[Pirate/welcome_aboard]
+"Welcome aboard matey!"
+TRIGGER pat_on_back OPTIONS("Friendly")
+"You want anything to drink?"
+- "Yes, I'll take one" SET(drinks=1)
+- "Yes, I'll take three" SET(drinks=3)
+- "Yes, I'll take five" SET(drinks=5)
+- "No, thanks"
+-> self_really_drunk IF drinks>3
+-> self_drunk IF drinks>2
+"That was a good drink."
+
+[Self/self_drunk]
+"Whoa, I'm drunk"
+
+[Self/self_really_drunk]
+"Whoa, I'm REALLY drunk"

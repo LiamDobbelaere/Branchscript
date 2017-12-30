@@ -1,20 +1,16 @@
 package com.digaly.branchscript.controllers;
 
 import com.digaly.branchscript.Branchscript;
-import com.digaly.branchscript.grammar.BranchscriptParser;
-import javafx.event.EventHandler;
 import javafx.scene.control.Label;
 import javafx.scene.input.*;
 import org.fxmisc.richtext.CodeArea;
 import org.fxmisc.richtext.LineNumberFactory;
-import org.fxmisc.richtext.MouseOverTextEvent;
 import org.fxmisc.richtext.model.StyleSpans;
 import org.fxmisc.richtext.model.StyleSpansBuilder;
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Stack;
-import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

@@ -6,7 +6,7 @@ conversation: conversationHeader conversationBody;
 conversationPerson: ID;
 conversationId: ID;
 triggerId: ID;
-conversationHeader: OPEN_HEADER conversationPerson HEADER_SEPARATOR conversationId CLOSE_HEADER setFlags?;
+conversationHeader: OPEN_HEADER conversationPerson HEADER_SEPARATOR conversationId CLOSE_HEADER;
 
 conversationBody: conversationFragment+;
 
